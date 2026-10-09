@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University of Calabar - Result Portal</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+  <div class="card">
+    <!-- Header Section -->
+    <div class="card-header">
+      <div class="logo-container">
+        <!-- Replace src with actual logo link if needed -->
+        <img src="https://unical.edu.ng/wp-content/uploads/2021/04/unical-logo.png" alt="University of Calabar Logo">
+      </div>
+      <h2>UNIVERSITY OF CALABAR</h2>
+      <p class="subtitle">RESULT PORTAL</p>
+    </div>
+
+    <!-- Form Section -->
+    <div class="card-body">
+      <form action="#" method="POST">
+        
+        <!-- Matriculation Number -->
+        <div class="form-group">
+          <label for="matric">MATRICULATION NUMBER</label>
+          <div class="input-wrapper">
+            <i class="fa-solid fa-id-card input-icon"></i>
+            <input type="text" id="matric" placeholder="e.g. CC/20/0001">
+          </div>
+        </div>
+
+        <!-- JAMB Registration Number -->
+        <div class="form-group">
+          <label for="jamb">JAMB REGISTRATION NUMBER</label>
+          <div class="input-wrapper">
+            <i class="fa-solid fa-hashtag input-icon"></i>
+            <input type="text" id="jamb" placeholder="e.g. 12345678AB">
+          </div>
+        </div>
+
+        <!-- Access PIN -->
+        <div class="form-group">
+          <label for="pin">ACCESS PIN</label>
+          <div class="input-wrapper">
+            <i class="fa-solid fa-lock input-icon"></i>
+            <input type="password" id="pin" placeholder="Enter your pin">
+          </div>
+        </div>
+
+        <!-- Radio Selection Buttons -->
+        <div class="student-type-group">
+          <label class="btn-option">
+            <input type="radio" name="student_type" value="new">
+            <span><i class="fa-solid fa-user-plus"></i> NEW STUDENT</span>
+          </label>
+          <label class="btn-option">
+            <input type="radio" name="student_type" value="returning">
+            <span><i class="fa-solid fa-rotate-right"></i> RETURNING</span>
+          </label>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="login-btn">
+          <i class="fa-solid fa-right-to-bracket"></i> LOGIN
+        </button>
+
+      </form>
+    </div>
+
+    <!-- Card Footer -->
+    <div class="card-footer">
+      <a href="#" class="footer-link green"><i class="fa-solid fa-key"></i> Don't have a pin? Get one here</a>
+      <a href="#" class="footer-link gray"><i class="fa-solid fa-arrows-rotate"></i> Change Pin</a>
+    </div>
+  </div>
+
+</body>
+</html>
